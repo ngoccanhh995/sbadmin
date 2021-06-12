@@ -1,0 +1,18 @@
+<div th:fragment="delete_modal" class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Bạn có muốn xóa bản ghi?</h5>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">Bạn có muốn xóa tài khoản <strong id="userNameIdDelete" style="color: #e02d1b"></strong> với mã tài khoản là <strong id="accountIdDelete" style="color: #e02d1b"></strong>.</div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Hủy</button>
+                <a class="btn btn-primary" href="#" id="btn_delete_account">Xóa</a>
+            </div>
+        </div>
+    </div>
+</div>
